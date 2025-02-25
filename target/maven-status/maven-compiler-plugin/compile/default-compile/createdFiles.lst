@@ -1,0 +1,7 @@
+persistencia\claseUsuarioJpaController.class
+logica\claseUsuario.class
+persistencia\exceptions\NonexistentEntityException.class
+logica\claseUsuario_.class
+persistencia\exceptions\PreexistingEntityException.class
+persistencia\exceptions\IllegalOrphanException.class
+com\mycompany\pruebamaven\svUsuarios.class
