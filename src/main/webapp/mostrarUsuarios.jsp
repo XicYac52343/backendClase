@@ -13,7 +13,6 @@
             List<claseUsuario> listaUsuarios = (List) request.getSession().getAttribute("listaUsuarios");
             int cont = 1;
             for(claseUsuario usu : listaUsuarios){
-            
         %>
         <p><b>Usuario N° <%=cont%></b></p>
         <p>Id: <%=usu.getDni()%></p>
