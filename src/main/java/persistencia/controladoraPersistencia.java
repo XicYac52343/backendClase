@@ -25,4 +25,16 @@ public class controladoraPersistencia {
             Logger.getLogger(controladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    public claseUsuario traerUsuario(int id_editar){
+        return usuJpa.findclaseUsuario(id_editar);  
+    }
+    
+    public void editarUsuario(claseUsuario usu){
+        try{
+            usuJpa.edit(usu);
+        }catch(Exception ex){
+            Logger.getLogger(controladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }

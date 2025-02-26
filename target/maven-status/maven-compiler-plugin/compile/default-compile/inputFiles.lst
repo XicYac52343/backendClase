@@ -1,6 +1,10 @@
+C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\com\mycompany\pruebamaven\svEditarUsuario.java
+C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\com\mycompany\pruebamaven\svEliminarUsuario.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\com\mycompany\pruebamaven\svUsuarios.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\logica\claseUsuario.java
+C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\logica\controladora.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\persistencia\claseUsuarioJpaController.java
+C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\persistencia\controladoraPersistencia.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\persistencia\exceptions\IllegalOrphanException.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\persistencia\exceptions\NonexistentEntityException.java
 C:\Users\XicYac\Desktop\pruebaMaven\src\main\java\persistencia\exceptions\PreexistingEntityException.java

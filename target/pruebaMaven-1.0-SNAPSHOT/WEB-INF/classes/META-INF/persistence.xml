@@ -3,6 +3,7 @@
   <persistence-unit name="ejemploJavaWebPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>logica.claseUsuario</class>
+    <class>persistencia.controladoraPersistencia</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC"/>

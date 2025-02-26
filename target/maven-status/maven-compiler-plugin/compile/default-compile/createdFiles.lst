@@ -1,5 +1,9 @@
 persistencia\claseUsuarioJpaController.class
+com\mycompany\pruebamaven\svEditarUsuario.class
+com\mycompany\pruebamaven\svEliminarUsuario.class
 logica\claseUsuario.class
+persistencia\controladoraPersistencia.class
+logica\controladora.class
 persistencia\exceptions\NonexistentEntityException.class
 logica\claseUsuario_.class
 persistencia\exceptions\PreexistingEntityException.class

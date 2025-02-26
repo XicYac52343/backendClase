@@ -1,17 +1,22 @@
-<%-- 
-    Document   : editarUsuario
-    Created on : 25/02/2025, 3:33:11 p. m.
-    Author     : XicYac
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="logica.claseUsuario"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Editar Usuario</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%
+            claseUsuario usu = (claseUsuario) request.getSession().getAttribute("usuEditar");
+        %>
+        <h1>Datos del usuario</h1>
+        <form action="svEditarUsuario" method="POST">
+            <p><label>Dni</label><input type="text" name="dni" value="<%=usu.getDni()%>"></p>
+            <p><label>Nombre</label><input type="text" name="nombre" value="<%=usu.getNombre()%>"></p>
+            <p><label>Apellidos</label><input type="text" name="apellidos" value="<%=usu.getApellidos()%>"></p>
+            <p><label>Telefono</label><input type="text" name="telefono" value="<%=usu.getTelefono()%>"></p>
+            <p><button type="submit">Actualizar</button></p>
+        </form>
     </body>
 </html>
