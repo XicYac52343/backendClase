@@ -1,0 +1,84 @@
+h1{
+    color: rgb(0, 217, 255);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px rgb(0, 217, 255);
+    margin: -5px;
+}
+
+.barra{
+    position: relative;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.cajaDatosCliente{
+    text-align: center; 
+    padding: 2px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 4px solid rgb(0, 217, 255);
+}
+
+.cajaListaUsuarios{
+    text-align: center;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 4px solid rgb(0, 217, 255);
+
+}
+
+.cajaEliminarUsuarios{
+    text-align: center;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 4px solid rgb(0, 217, 255);
+}
+
+.cajaEditarUsuarios{
+    text-align: center;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 4px solid rgb(0, 217, 255);
+}
+
+.datosClientes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    border:2px solid aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+}
+html{
+    background-color: black;
+}
+
+
+
+
+
+
+
